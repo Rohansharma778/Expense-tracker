@@ -1,0 +1,17 @@
+/* stylelint-disable at-rule-no-unknown */
+/*
+	The file uses Tailwind directives (@tailwind, @apply) which are processed by
+	Tailwind's PostCSS plugin during build. Some editors / stylelint setups flag
+	these as unknown at-rules. The directive above disables that rule for this
+	file while keeping the Tailwind directives intact.
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Small helpers */
+.scroll-safe { scroll-padding-top: 4rem; }
+
+/* Make inputs a bit nicer */
+.form-input { @apply w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 }
