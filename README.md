@@ -102,10 +102,10 @@ The application should now be running at `http://localhost:5173`
 
 ### Transactions
 
-- GET `/api/transactions` - Get all transactions
-- POST `/api/transactions` - Create a new transaction
-- PUT `/api/transactions/:id` - Update a transaction
-- DELETE `/api/transactions/:id` - Delete a transaction
+- GET `/api` - Get all transactions
+- POST `/api` - Create a new transaction
+- PUT `/api/:id` - Update a transaction
+- DELETE `/api/:id` - Delete a transaction
 
 ## Contributing
 
