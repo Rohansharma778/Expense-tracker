@@ -107,6 +107,3 @@ The application should now be running at `http://localhost:5173`
 - PUT `/api/:id` - Update a transaction
 - DELETE `/api/:id` - Delete a transaction
 
-## Contact
-
-Rohan Sharma - [GitHub](https://github.com/Rohansharma778)
